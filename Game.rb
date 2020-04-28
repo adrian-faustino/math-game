@@ -54,6 +54,6 @@ class Game
 
     # game over
     puts "\n" + Format.border('Game over')
-    puts "#{current_player.name} wins wtih #{current_player.life} #{Format.life(current_player.life)}."
+    puts "#{current_player.name} wins wtih #{current_player.life} #{Format.life(current_player.life)} remaining."
   end
 end
